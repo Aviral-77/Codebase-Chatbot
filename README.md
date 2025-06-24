@@ -17,8 +17,8 @@ An interactive chatbot built using Chainlit, LlamaIndex, and Ollama, designed to
 
 🛠️ Installation
 1. Clone this repository
-`git clone https://github.com/your-username/your-repo-name.git`
-`cd your-repo-name`
+`git clone https://github.com/Aviral-77/Codebase-Chatbot.git`
+`cd Codebase-Chatbot`
 
 2. Install dependencies:
 `pip install -r requirements.txt`
