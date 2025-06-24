@@ -17,28 +17,30 @@ An interactive chatbot built using Chainlit, LlamaIndex, and Ollama, designed to
 
 🛠️ Installation
 1. Clone this repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+`git clone https://github.com/your-username/your-repo-name.git`
+`cd your-repo-name`
 
 2. Install dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 ⚙️ Configuration
 Set your credentials and repo information in config.py:
 
+```
 OPENAI_API_KEY = "your-openai-api-key"  # Optional, if using OpenAI
 GITHUB_TOKEN = "your-github-token"
 
 GITHUB_OWNER = "your-github-username"
 GITHUB_REPO = "target-repository-name"
 GITHUB_BRANCH = "main"  # or another branch
+```
 
 🧪 Running the Bot
 Make sure you have Ollama running locally and the desired model (like llama3) installed:
-ollama run llama3
+`ollama run llama3`
 
 
 Then, start the chatbot:
-chainlit run app.py
+`chainlit run app.py`
 Open the browser window that Chainlit provides. You're ready to chat!
